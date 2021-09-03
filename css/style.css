@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)),
+    url(../img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_div {
+  width: 250px;
+  height: 400px;
+  background: url(../img/pexels-adrian-lang-2414442.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 6px 6px 7px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 6px 6px 7px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 7px -5px rgba(0, 0, 0, 0.75);
+  position: relative;
+}
+
+.content {
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.bars,
+.plus {
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 5vh;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.header_content {
+  width: 100%;
+  height: 60%;
+  padding: 1rem;
+  color: #fff;
+}
+
+.header_content .header_name {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+
+.header_content .data {
+  font-size: 0.6rem;
+  margin-bottom: 0.6rem;
+  font-weight: 200;
+}
+
+.header_content .temp {
+  font-size: 4rem;
+  margin-bottom: 0.8rem;
+  font-weight: 800;
+}
+
+.header_content .mansoon {
+  font-size: 0.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.header_content .weatherDetails {
+  font-size: 0.8rem;
+}
+
+.weather_icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.icon {
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+
+.wether {
+  font-size: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.wind {
+  font-size: 0.4rem;
+  margin: 0.2rem;
+}
